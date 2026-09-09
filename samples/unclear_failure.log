@@ -1,0 +1,4 @@
+============================= test session starts ==============================
+collected 1 item
+tests/test_api.py::test_api FAILED
+Some unexpected error occurred
