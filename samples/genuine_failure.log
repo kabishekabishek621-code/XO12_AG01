@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+collected 1 item
+
+tests/test_payment.py::test_payment_flow FAILED
+
+=================================== FAILURES ===================================
+_______________________________ test_payment_flow _______________________________
+    def test_payment_flow():
+>       assert process_payment(100) == "success"
+E       AssertionError: assert 'failed' == 'success'
+tests/test_payment.py:18: AssertionError
