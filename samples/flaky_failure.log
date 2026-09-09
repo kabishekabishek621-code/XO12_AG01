@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+collected 1 item
+
+tests/test_login.py::test_login FAILED
+
+=================================== FAILURES ===================================
+_______________________________ test_login ______________________________________
+    def test_login():
+>       assert login() == True
+E       AssertionError
+Note: This test failed intermittently in 3 of last 7 builds
