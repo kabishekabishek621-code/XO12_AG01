@@ -1,0 +1,8 @@
+diff --git a/src/payment.py b/src/payment.py
+--- a/src/payment.py
++++ b/src/payment.py
+@@ -5,6 +5,7 @@ def process_payment(amount):
+     if amount <= 0:
+         return "invalid"
+-    return "success"
++    return "failed"          # bug introduced
