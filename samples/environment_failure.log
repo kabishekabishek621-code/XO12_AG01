@@ -1,0 +1,4 @@
+============================= test session starts ==============================
+ERROR: Failed to connect to database
+ConnectionRefusedError: [Errno 111] Connection refused
+Permission denied: secret key not found
