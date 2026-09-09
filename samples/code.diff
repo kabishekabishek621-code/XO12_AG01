@@ -1,0 +1,9 @@
+diff --git a/tests/test_payment.py b/tests/test_payment.py
+index 1234567..abcdefg 100644
+--- a/tests/test_payment.py
++++ b/tests/test_payment.py
+@@ -10,6 +10,7 @@ def process_payment(amount):
+     if amount <= 0:
+         return "invalid"
++    # temporary debug change
+     return "success"
