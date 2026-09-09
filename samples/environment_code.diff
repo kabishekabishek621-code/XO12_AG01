@@ -1,0 +1,6 @@
+diff --git a/docs/setup.md b/docs/setup.md
+--- a/docs/setup.md
++++ b/docs/setup.md
+@@ -2,3 +2,4 @@
+ Setup guide
++Added new setup note
